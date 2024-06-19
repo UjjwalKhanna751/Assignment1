@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/Background_color"
+    style="@style/Theme.HappyBirthday"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_200"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Happy Birthday" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLines="2"
+        android:text="Many happy returns of the day!"
+        android:textColor="@color/teal_200" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="480dp" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="~Ujjwal" />
+
+</LinearLayout>
+
